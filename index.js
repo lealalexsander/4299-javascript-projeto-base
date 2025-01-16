@@ -1,7 +1,6 @@
 const inputItem = document.getElementById("input-item");
 let contador = 0;
-
-
+const listaDeCompras = document.getElementById("lista-de-compras");
 const botaoAdicionar = document.getElementById("adicionar-item");
 
 botaoAdicionar.addEventListener("click", (evento) => {
@@ -17,12 +16,12 @@ botaoAdicionar.addEventListener("click", (evento) => {
     const inputCheckbox = document.createElement("input");
     inputCheckbox.type = "checkbox";
     inputCheckbox.id = "checkbox-" + contador++;
-    console.log(inputCheckbox);
     const nomeItem = document.createElement("p");
     nomeItem.innerText = inputItem.value;
 
     containerItemDaLista.appendChild(inputCheckbox);
     containerItemDaLista.appendChild(nomeItem);
 
-    itemDaLista.appendChild(containerItemDaLista)
+    itemDaLista.appendChild(containerItemDaLista);
+    listaDeCompras.appendChild(itemDaLista);
 })
