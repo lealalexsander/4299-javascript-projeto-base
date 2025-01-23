@@ -15,8 +15,11 @@
 }
 
 body {
-    background: var(--degrade-azul);
-    background-repeat: no-repeat;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), /* Sobreposição escura */
+        url(img/fundo.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 
     display: flex;
@@ -24,19 +27,23 @@ body {
     align-items: center;
 }
 
+
+
 main {
     background-color: var(--neutro);
-    margin-top: 64px;
-
+    margin-top: 30px;
+    margin-bottom: 64px;
+    
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 14px;
 
     width: 440px;
-    padding: 56px;
+    padding: 36px 56px;
 
     align-items: center;
     border-radius: 16px;
+    border: 4px solid gold;
 }
 
 h2 {
