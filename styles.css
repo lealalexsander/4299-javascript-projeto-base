@@ -27,8 +27,6 @@ body {
     align-items: center;
 }
 
-
-
 main {
     background-color: var(--neutro);
     margin-top: 30px;
@@ -43,8 +41,12 @@ main {
 
     align-items: center;
     border-radius: 16px;
-    border: 4px solid gold;
+    border: 2px solid rgb(255, 217, 0);
+
+    /* Adicionando o efeito de borda espelhada */
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.6); /* Ajuste conforme necessário */
 }
+
 
 h2 {
     font-family: var(--fonte-titulo);
@@ -107,7 +109,7 @@ form {
     display: flex;
     gap: 8px;
 }
-x
+
 ul {
     list-style-type: none;
 }
