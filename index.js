@@ -22,6 +22,7 @@ botaoAdicionar.addEventListener("click", (evento) => {
     inputCheckbox.addEventListener("click", function (){
         if (inputCheckbox.checked) {
             nomeItem.style.textDecoration = "line-through";
+            nomeItem.style.color = "red";
         } else {
             nomeItem.style.textDecoration = "none";
         }
@@ -44,4 +45,20 @@ botaoAdicionar.addEventListener("click", (evento) => {
 
     const dataCompleta = `${diaDaSemana} (${data}) às ${hora}`;
     itemData.innerText = dataCompleta;
+
+    verificarListaVazia();
 });
+
+const mensagemListaVazia = document.querySelector(".mensagem-lista-vazia");
+
+function verificarListaVazia() {
+    const itensDaLista = listaDeCompras.querySelectorAll("li");
+
+    if (itensDaLista.length === 0) {
+        mensagemListaVazia.style.display = "block";
+    } else {
+        mensagemListaVazia.style.display = "none";
+    }
+}
+
+verificarListaVazia();
