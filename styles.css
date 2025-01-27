@@ -16,7 +16,7 @@
 
 body {
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), /* Sobreposição escura */
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), /* Sobreposição escura */
         url(img/fundo.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -68,6 +68,11 @@ p {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+.bag-imagem {
+    width: 16em;
+    margin: -12px 0 12px 0;
 }
 
 .input-item {
