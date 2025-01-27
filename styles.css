@@ -82,6 +82,11 @@ p {
     margin: -12px 0 12px 0;
 }
 
+.mensagem-lista-vazia {
+    font-size: 1em;
+    
+}
+
 .input-item {
     display: block;
     padding: 12px 16px;
