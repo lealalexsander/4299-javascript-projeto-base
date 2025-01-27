@@ -17,12 +17,11 @@
 
 body {
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), /* Sobreposição escura */
-        url(img/fundo.jpg) no-repeat center;
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), /* Sobreposição escura */
+        url(img/fundo.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +41,7 @@ main {
 
     align-items: center;
     border-radius: 16px;
-    border: 5px solid var(--marrom);
+    border: 2px solid var(--marrom);
 
     /* Adicionando o efeito de borda espelhada */
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.6); /* Ajuste conforme necessário */
