@@ -9,6 +9,7 @@
     --cor-secundaria: #C2373F;
     --neutro: #F9F9F9;
     --preto: #131730;
+    --marrom: #4f3104;
     --fonte-titulo: "Krona One", sans-serif;
     --fonte-texto: 'Numans', sans-serif;
     --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
@@ -41,7 +42,7 @@ main {
 
     align-items: center;
     border-radius: 16px;
-    border: 2px solid rgb(255, 217, 0);
+    border: 5px solid var(--marrom);
 
     /* Adicionando o efeito de borda espelhada */
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.6); /* Ajuste conforme necessário */
@@ -70,7 +71,14 @@ p {
     text-align: left;
 }
 
-.bag-imagem {
+.marca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marca_imagem-bag {
     width: 16em;
     margin: -12px 0 12px 0;
 }
