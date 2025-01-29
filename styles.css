@@ -127,7 +127,7 @@ p {
 .button-apagar {
     color: black;
     background-color: gray;
-    cursor: auto;
+    cursor: pointer;
 }
 
 

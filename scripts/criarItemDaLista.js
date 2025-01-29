@@ -1,4 +1,5 @@
 import gerarDiaDaSemana from "./gerarDiaDaSemana.js";
+import apagarLista from "./apagarLista.js";
 const inputItem = document.getElementById("input-item");
 let contador = 0;
 
