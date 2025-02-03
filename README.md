@@ -9,8 +9,6 @@ Aplicação web de lista de compras interativa, desenvolvida para facilitar a or
 - Exibir data e horário da adição de cada item.
 - Marcar itens como comprados através de um checkbox.
 
-![Gif demonstrando a adição, edição e remoção de itens na lista](https://imgur.com/isPj7Xf.gif)
-
 ## 🚀 Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -39,7 +37,11 @@ Você pode acessar o código fonte do projeto diretamente no GitHub:
 
 ## 📷 Imagem do Projeto
 
-![Imagem da interface da aplicação](https://imgur.com/C8TfWXc.png)
+**Desktop:** 
+![image](https://github.com/user-attachments/assets/9bd09143-52b6-472b-910a-f9a0a587598c)
+**Mobile:**  
+![image](https://github.com/user-attachments/assets/193a9834-3b07-49f9-81aa-c1ddf0603b45)
+
 
 ## 📌 Melhorias Futuras
 
