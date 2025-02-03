@@ -1,36 +1,53 @@
+# 🛒 Tá na Lista!
 
-![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
+Aplicação web de lista de compras interativa, desenvolvida para facilitar a organização dos itens a serem adquiridos.
 
-# Titulo do projeto
+## 🔨 Funcionalidades do Projeto
 
-Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+- Adicionar itens à lista de compras.
+- Excluir itens individualmente ou apagar toda a lista.
+- Exibir data e horário da adição de cada item.
+- Marcar itens como comprados através de um checkbox.
 
-## 🔨 Funcionalidades do projeto
+![Gif demonstrando a adição, edição e remoção de itens na lista](https://imgur.com/isPj7Xf.gif)
 
-A aplicação permite inserir itens em uma lista de forma dinâmica, permitindo a exclusão e edição dos mesmos. Os itens terão o nome e também a data e horário que foram criados. Também é possível selecionar um checkbox para informar que o item foi comprado.
+## 🚀 Tecnologias Utilizadas
 
-![Inserção no campo de digitação do valor ração de gato, após, é clicado no botão de edição, onde é aberto um popup para digitar o novo do nome item, que foi digitado ração de cachorro. Em seguida, é clicado no botão de exclusão, e o item é excluído.](https://imgur.com/isPj7Xf.gif)
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## ✔️ Técnicas e tecnologias utilizadas
+- **HTML**: Estrutura da aplicação.
+- **CSS**: Estilização para uma interface agradável e responsiva.
+- **JavaScript**: Manipulação do DOM para interatividade dinâmica.
 
-As técnicas e tecnologias utilizadas pra isso são:
+## 📁 Acesso ao Projeto
 
-- `HTML`: criação dos elementos da tela;
-- `CSS`: estilização da aplicação;
-- `JavaScript`: construção de elementos dinâmicos através da manipulação do DOM.
+Você pode acessar o código fonte do projeto diretamente no GitHub:
 
-## 📁 Acesso ao projeto
+🔗 [Repositório no GitHub](https://github.com/seu-usuario/ta-na-lista)
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
+## 🛠️ Como Rodar o Projeto
 
-## 🛠️ Abrir e rodar o projeto
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/ta-na-lista.git
+   ```
+2. **Acesse a pasta do projeto**
+   ```bash
+   cd ta-na-lista
+   ```
+3. **Abra o arquivo `index.html`** diretamente no navegador ou utilize a extensão **Live Server** no Visual Studio Code para melhor experiência.
 
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
+## 📷 Imagem do Projeto
 
-- **File** > **Open Folder** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
+![Imagem da interface da aplicação](https://imgur.com/C8TfWXc.png)
 
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
+## 📌 Melhorias Futuras
 
+- Implementação de armazenamento local para salvar a lista entre sessões.
+- Criação de categorias para melhor organização dos itens.
+- Implementação de um sistema de login para listas personalizadas.
+
+---
+
+✨ Projeto desenvolvido com dedicação para aprimorar habilidades em desenvolvimento web! 🚀
 
